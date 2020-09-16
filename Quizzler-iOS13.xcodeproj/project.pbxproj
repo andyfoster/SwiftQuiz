@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1981675251239F200390178 /* QuizBrainMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1981674251239F200390178 /* QuizBrainMulti.swift */; };
+		A1A10CC02511F0B900914DF8 /* MultichoiceQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A10CBF2511F0B900914DF8 /* MultichoiceQuestion.swift */; };
 		A1B7E70A2511976600FEEAFF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7E7092511976600FEEAFF /* Question.swift */; };
 		A1B7E70F2511AB6100FEEAFF /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7E70E2511AB6100FEEAFF /* QuizBrain.swift */; };
 		AD4BDE4A22D878BA005BA4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BDE4922D878BA005BA4CC /* AppDelegate.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1981674251239F200390178 /* QuizBrainMulti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrainMulti.swift; sourceTree = "<group>"; };
+		A1A10CBF2511F0B900914DF8 /* MultichoiceQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultichoiceQuestion.swift; sourceTree = "<group>"; };
 		A1B7E7092511976600FEEAFF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A1B7E70E2511AB6100FEEAFF /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		AD4BDE4622D878BA005BA4CC /* Quizzler-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizzler-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +52,8 @@
 			children = (
 				A1B7E7092511976600FEEAFF /* Question.swift */,
 				A1B7E70E2511AB6100FEEAFF /* QuizBrain.swift */,
+				A1A10CBF2511F0B900914DF8 /* MultichoiceQuestion.swift */,
+				A1981674251239F200390178 /* QuizBrainMulti.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,7 +180,9 @@
 			files = (
 				A1B7E70F2511AB6100FEEAFF /* QuizBrain.swift in Sources */,
 				AD4BDE4E22D878BA005BA4CC /* ViewController.swift in Sources */,
+				A1A10CC02511F0B900914DF8 /* MultichoiceQuestion.swift in Sources */,
 				A1B7E70A2511976600FEEAFF /* Question.swift in Sources */,
+				A1981675251239F200390178 /* QuizBrainMulti.swift in Sources */,
 				AD4BDE4A22D878BA005BA4CC /* AppDelegate.swift in Sources */,
 				AD4BDE4C22D878BA005BA4CC /* SceneDelegate.swift in Sources */,
 			);
